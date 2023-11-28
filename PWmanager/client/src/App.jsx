@@ -1,3 +1,5 @@
+import React from 'react'
+
 import { auth } from "./firebase";
 import PassManager from "./pages/PassManger";
 import LoginPage from "./pages/LoginPage";
