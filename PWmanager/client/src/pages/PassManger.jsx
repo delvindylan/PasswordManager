@@ -46,46 +46,46 @@ function PassManger() {
 
   return (
     <div className="App">
-      <Header/>
-      <div className="addPassword">
-        <input
-          type="text"
-          placeholder="Bsp. PASSWORT"
-          onChange={(event) => {
-            setPassword(event.target.value);
-          }}
-        />
-        <input
-          type="text"
-          placeholder="Bsp. Instagram"
-          onChange={(event) => {
-            setTitle(event.target.value);
-          }}
-        />
-        <button onClick={addPassword}>Passwort hinzufügen</button>
-      </div>
+      <Header />
+        <div className="addPassword">
+          <input
+            type="text"
+            placeholder="Bsp. PASSWORT"
+            onChange={(event) => {
+              setPassword(event.target.value);
+            }}
+          />
+          <input
+            type="text"
+            placeholder="Bsp. Instagram"
+            onChange={(event) => {
+              setTitle(event.target.value);
+            }}
+          />
+          <button onClick={addPassword}>Passwort hinzufügen</button>
+        </div>
 
-      <div className="Passwords">
-        {passwordList.map((val, key) => {
-          return (
-            <div
-              className="password"
-              onClick={() => {
-                decryptPassword({
-                  password: val.password,
-                  iv: val.iv,
-                  id: val.id,
-                });
-              }}
-              key={key}
-            >
-              <h3>{val.title}</h3>
-            </div>
-          );
-        })}
-      </div>
+        <div className="Passwords">
+          {passwordList.map((val, key) => {
+            return (
+              <div
+                className="password"
+                onClick={() => {
+                  decryptPassword({
+                    password: val.password,
+                    iv: val.iv,
+                    id: val.id,
+                  });
+                }}
+                key={key}
+              >
+                <h3>{val.title}</h3>
+              </div>
+            );
+          })}
+        </div>
     </div>
   );
 }
 
-export default PassManger
+export default PassManger;
