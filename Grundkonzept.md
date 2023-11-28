@@ -1,4 +1,4 @@
-# Grundkonzept für den Password Manager
+# Grundkonzept für den Password Manager (ALZHEIMER MANAGER)
 
 ## Einleitung
 
@@ -14,12 +14,14 @@ Unsere Password Manager-Applikation besteht aus drei Hauptkomponenten:
    - Die Benutzer können ihre Passwörter in Kategorien organisieren und haben Zugriff auf eine sichere Passwortgenerierungsfunktion.
    - Die Kommunikation mit dem Backend erfolgt über RESTful-APIs.
 
-2. **Backend (Spring Boot)**:
+2. **Backend (Axios)**:
    - Das Backend ist für die Verarbeitung der Geschäftslogik verantwortlich, einschließlich der Verwaltung von Passwörtern und Benutzerkonten.
    - Benutzerkonten und Passwörter werden sicher in einer Datenbank gespeichert.
    - Das Backend stellt RESTful-APIs zur Verfügung, um Daten abzurufen, zu speichern und zu verwalten.
    - Sicherheitsfunktionen wie Authentifizierung und Autorisierung werden im Backend implementiert.
 
+2. **Datenbank (MySQL)**:
+   - Speichert die gehaschten Passwörter und die Dazugehörigen
    
 
 ## Sicherheitsaspekte
