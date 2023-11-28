@@ -2,11 +2,11 @@
 
 ## Einleitung
 
-Dieses Dokument beschreibt das Grundkonzept für unseren Password Manager, der entwickelt wird, um Benutzern die sichere Verwaltung ihrer Passwörter zu ermöglichen. Das System basiert auf einer Client-Server-Architektur, wobei das Frontend mit React entwickelt wird und das Backend mit Spring Boot realisiert wird.
+Dieses Dokument beschreibt das Grundkonzept für unseren Password Manager, der entwickelt wird, um Benutzern die sichere Verwaltung ihrer Passwörter zu ermöglichen. Das System basiert auf einer Client-Server-Architektur, wobei das Frontend mit React entwickelt wird und das Backend mit JavaScript realisiert wird. Als Datenbank benutzen Firebase.
 
 ## Architektur
 
-Unsere Password Manager-Applikation besteht aus zwei Hauptkomponenten:
+Unsere Password Manager-Applikation besteht aus drei Hauptkomponenten:
 
 1. **Frontend (React)**:
    - Das Frontend ist die Benutzeroberfläche, die Benutzern die Interaktion mit der Anwendung ermöglicht.
@@ -19,6 +19,8 @@ Unsere Password Manager-Applikation besteht aus zwei Hauptkomponenten:
    - Benutzerkonten und Passwörter werden sicher in einer Datenbank gespeichert.
    - Das Backend stellt RESTful-APIs zur Verfügung, um Daten abzurufen, zu speichern und zu verwalten.
    - Sicherheitsfunktionen wie Authentifizierung und Autorisierung werden im Backend implementiert.
+
+   
 
 ## Sicherheitsaspekte
 
