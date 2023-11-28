@@ -6,7 +6,7 @@ function Header() {
   const [user] = useAuthState(auth);
   return (
     <header className="w-full flex items-center justify-between p-5 shadow-lg sticky top-0 bg-white z-10">
-      <h1 className="pl-4 text-3xl font-bold text-blue-400">z</h1>
+      <h1 className="pl-4 text-3xl font-bold text-blue-400">ALZHEIMER MANAGER</h1>
       <img
         onClick={() => auth.signOut()}
         src={user.photoURL ? user.photoURL : ""}
