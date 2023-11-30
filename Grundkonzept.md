@@ -27,7 +27,7 @@ Unsere Password Manager-Applikation besteht aus drei Hauptkomponenten:
 
 ## Sicherheitsaspekte
 
-Bei der Entwicklung des Password Managers stehen Sicherheitsaspekte im Vordergrund:
+Bei der Entwicklung des Password Managers stehen Sicherheitsaspekte im Vordergrund:g
 
 1. **Authentifizierung und Autorisierung**:
    - Benutzer müssen sich mit ihren Zugangsdaten sicher authentifizieren, bevor sie auf ihre Passwörter zugreifen können.
